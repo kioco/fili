@@ -42,25 +42,25 @@ public class DruidClientConfigHelper {
     /**
      * The url for the broker vip which serves low latency queries.
      */
-    private static final String UI_DRUID_BROKER_URL_KEY =
+    public static final String UI_DRUID_BROKER_URL_KEY =
             SYSTEM_CONFIG.getPackageVariableName("ui_druid_broker");
 
     /**
      * The url for the broker vip which serves higher latency queries.
      */
-    private static final String NON_UI_DRUID_BROKER_URL_KEY =
+    public static final String NON_UI_DRUID_BROKER_URL_KEY =
             SYSTEM_CONFIG.getPackageVariableName("non_ui_druid_broker");
 
     /**
      * The url for the broker vip which serves all queries.
      */
-    private static final String DRUID_BROKER_URL_KEY =
+    public static final String DRUID_BROKER_URL_KEY =
             SYSTEM_CONFIG.getPackageVariableName("druid_broker");
 
     /**
      * The url for the coordinator vip which serves low latency queries.
      */
-    private static final String DRUID_COORD_URL_KEY =
+    public static final String DRUID_COORD_URL_KEY =
             SYSTEM_CONFIG.getPackageVariableName("druid_coord");
 
     /**
